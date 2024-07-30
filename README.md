@@ -1,4 +1,4 @@
-#E-Commerce Bag Feature
+# E-Commerce Bag Feature
 Overview
 The E-Commerce Bag Feature is a dynamic web application component designed to enhance the shopping experience by allowing users to add items to a virtual shopping bag, view item details, and see the count of items in their bag. This application is built using HTML, CSS, and JavaScript, demonstrating practical skills in front-end development, local storage management, and interactive UI design.
 
