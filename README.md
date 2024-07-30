@@ -1,19 +1,19 @@
 # E-Commerce Bag Feature
-Overview
+## Overview
 The E-Commerce Bag Feature is a dynamic web application component designed to enhance the shopping experience by allowing users to add items to a virtual shopping bag, view item details, and see the count of items in their bag. This application is built using HTML, CSS, and JavaScript, demonstrating practical skills in front-end development, local storage management, and interactive UI design.
 
-Key Features
+## Key Features
 Add to Bag: Users can add items to their shopping bag with a single click.
 Item Display: Displays a list of items with details such as image, rating, company name, item name, price, and discount.
 Bag Icon: Shows the count of items in the shopping bag and updates in real-time.
 Local Storage: Persists the shopping bag items across browser sessions using local storage.
 
-Technologies Used
+## Technologies Used
 HTML5: Structure and content of the web page.
 CSS3: Styling and layout to ensure a responsive design.
 JavaScript: Logic for managing the shopping bag, updating the UI, and handling local storage.
 
-How It Works
+## How It Works
 On Load:
 
 The onLoad function retrieves the saved bag items from local storage and displays them on the home page.
@@ -28,10 +28,7 @@ Updating Bag Icon:
 The displayBagIcon function updates the bag icon to show the current count of items in the shopping bag.
 
 
-Code Snippet
-JavaScript (script.js)
-javascript
-Copy code
+##Code Snippet
 let bagItems = [];
 onLoad();
 
@@ -88,7 +85,7 @@ function displayBagIcon() {
     }
 }
 
-Future Enhancements
+### Future Enhancements
 User Authentication: Allow users to save their shopping bag items across different devices.
 Item Categories: Implement categories for better item organization.
 Search Functionality: Add a search bar to filter items based on keywords.
